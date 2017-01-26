@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+    <template id="assets_backend" name="web_mail_mark_as_read assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+			<script type="text/javascript" src="/web_mail_mark_as_read/static/src/js/web_mail_mark_as_read.js"></script>
+        </xpath>
+    </template>
+
+</data>
+</openerp>
