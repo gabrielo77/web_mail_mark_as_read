@@ -7,7 +7,7 @@ openerp.web_mail_mark_as_read = function (instance) {
           var self = this;
           if (this.sidebar && this.options.$sidebar && self.is_mail_thread()) {
               var other = this.sidebar.items['other'];
-              var label = _t("Mark as read");
+              var label = _t("Mark all as read");
               for (item in other) {
                   if (other[item].label == label) { // avoid duplicated entries
                       return this._super(data);

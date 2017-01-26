@@ -1,5 +1,5 @@
 {
-    'name': 'Mark all mails as read',
+    'name': 'WEB: Mark all as read',
     'category': 'Web',
     'version': '8.0.1.0.1',
     'description':
